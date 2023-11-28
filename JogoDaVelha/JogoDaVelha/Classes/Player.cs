@@ -19,7 +19,7 @@ namespace JogoDaVelha
 
         public int FazerJogada()
         {
-            Console.Write($"{Nome}, é a sua vez de jogar. Escolha uma posição (1-9: ");
+            Console.Write($"{Nome}, é a sua vez de jogar. Escolha uma posição (1-9): ");
             if(int.TryParse(Console.ReadLine(), out int escolha))
             {
                 return escolha;
